@@ -51,6 +51,11 @@
             flex: 1;
             justify-content: center;
         }
+        .app-header h1 .coat-of-arms {
+            font-size: 24px;
+            display: inline-block;
+            filter: drop-shadow(0 0 2px rgba(255, 215, 0, 0.3));
+        }
         .app-header h1 i {
             color: #ffcd3c;
             font-size: 20px;
@@ -525,7 +530,10 @@
 <body>
     <div class="app-container" id="app">
         <div class="app-header">
-            <h1><i class="fas fa-database"></i> Northern Province School Data</h1>
+            <h1>
+                <span class="coat-of-arms">🇿🇲</span>
+                Northern Province School Data
+            </h1>
             <div class="header-actions">
                 <span class="admin-badge" id="adminHeaderBtn"><i class="fas fa-user-shield"></i> Admin</span>
             </div>
